@@ -10,3 +10,5 @@ if __name__ == '__main__':
 
     newText = (' '.join([int_func(item) for item in myText.split(' ')]))
     print(newText)
+
+    print(int_func(myText))
